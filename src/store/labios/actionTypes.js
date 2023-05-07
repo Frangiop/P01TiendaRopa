@@ -1,0 +1,9 @@
+
+export const GET_LABIOS = "GET_LABIO"
+export const GET_LABIOS_OK = "GET_LABIO_OK"
+export const GET_LABIOS_FAIL = "GET_LABIO_FAIL"
+
+
+export const GET_SINGLE_LABIO = "GET_SINGLE_LABIO"
+export const GET_SINGLE_LABIO_OK = "GET_SINGLE_LABIO_OK"
+export const GET_SINGLE_LABIO_FAIL = "GET_SINGLE_LABIO_FAIL"

@@ -1,0 +1,49 @@
+.multi-component-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 50px; /* Agregar margen inferior */
+}
+  
+  .multi-component-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .multi-component-image {
+    width: 250px;
+    height: 250px;
+    transition: transform 0.5s;
+  }
+  
+  .image-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%; /* aumentar el valor para hacer el cuadro más grande */
+    background-color: rgba(255, 0, 0, 0.7); /* aumentar la opacidad para hacer el cuadro más visible */
+    color: #fff;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+  }
+  
+  .image-container:hover .multi-component-image {
+    transform: scale(1.2);
+  }
+  
+  .image-container:hover .image-description {
+    transform: translateY(0%);
+  }
+  
+  

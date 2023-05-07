@@ -1,0 +1,43 @@
+    .single-labios-container {
+        display: flex;
+        flex-direction: row;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .single-labios-image {
+        margin-right: 20px;
+    }
+    
+    .single-labios-details {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .single-labios-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .single-labios-price {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #ff6b6b;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .labio-image1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    }

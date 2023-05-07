@@ -1,0 +1,48 @@
+.carousel-container1 {
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto; /* para centrar horizontalmente el contender priunpar de las imagenes  */
+    display: flex;
+    overflow: hidden;
+  }
+  .carousel-item1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-arrow1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 500px;
+    background-color: rgba(59, 43, 43, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .carousel-arrow:hover {
+    background-color: rgba(228, 116, 116, 0.9);
+  }
+  
+  .carousel-arrow-left1 {
+    left: 0;
+  }
+  
+  .carousel-arrow-right1 {
+    right: 0;
+  }
+  
+
+  
